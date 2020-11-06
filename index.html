@@ -62,7 +62,7 @@
     ga('optimizeTracker.require', 'GTM-MDRX326');
     ga('optimizeTracker.send', 'pageview');
   });
-  analytics.on('track', function(event, properties, options){
+  analytics.on('track', function(event, properties, options){ 
   // custom logic based on event properties
     ga('optimizeTracker.send', {
         hitType: 'event',
